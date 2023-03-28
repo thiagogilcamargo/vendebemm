@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B5E1243D-6856-6C02-1428-4A59574D13F8" name="T_VB_ITEM_PEDIDO">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2023-03-28 23:40:43 UTC</createdTime>
+<ownerDesignName>ProjVendeBem</ownerDesignName>
+<engineerTo>
+<item key="D455C03D-D3E2-1458-785B-5E691652D645" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NR_PEDIDO" id="F0B0DB6A-522F-1E8A-C201-81FEC663C3FB">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2023-03-28 23:43:06 UTC</createdTime>
+<comment><![CDATA[Este atributo refere-se a chave primária da tabela de Pedido do projeto vendebem. Seu conteúdo é obrigatório e será preenchido automaticamente pela aplicação.]]></comment>
+<generatorID>639ADC40-D5CF-C4D3-1B85-06E34A44013F</generatorID>
+<ownerDesignName>ProjVendeBem</ownerDesignName>
+<engineerTo>
+<item key="D455C03D-D3E2-1458-785B-5E691652D645" value="true"/>
+</engineerTo>
+<referedAttribute>738A5011-D034-7DFC-4D71-03AF3B510175</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_ITEM" id="10A1F48E-C81E-68A8-2A1C-D0F7AD5B61DA">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2023-03-28 23:40:59 UTC</createdTime>
+<ownerDesignName>ProjVendeBem</ownerDesignName>
+<engineerTo>
+<item key="D455C03D-D3E2-1458-785B-5E691652D645" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_PRODUTO" id="F6996076-1C95-2B22-F016-05CD1230BD49">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2023-03-28 23:43:39 UTC</createdTime>
+<comment><![CDATA[Este atributo refere-se a chave primária da tabela de produto do projeto vendebem. Seu conteúdo é obrigatório e será preenchido automaticamente pela aplicação.]]></comment>
+<generatorID>78F815AB-203B-2DAC-EFF4-77AF764B732F</generatorID>
+<ownerDesignName>ProjVendeBem</ownerDesignName>
+<engineerTo>
+<item key="D455C03D-D3E2-1458-785B-5E691652D645" value="true"/>
+</engineerTo>
+<referedAttribute>2C2478B2-39D4-537E-3766-6BA9BC20377B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="QT_VENDIDA" id="1A422798-C4B2-850B-17A9-14651F19765D">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2023-03-28 23:41:11 UTC</createdTime>
+<ownerDesignName>ProjVendeBem</ownerDesignName>
+<engineerTo>
+<item key="D455C03D-D3E2-1458-785B-5E691652D645" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VL_UNITARIO_VENDA" id="538CB7DA-89A8-5D2A-348C-5FE3F76674C4">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2023-03-28 23:41:28 UTC</createdTime>
+<ownerDesignName>ProjVendeBem</ownerDesignName>
+<engineerTo>
+<item key="D455C03D-D3E2-1458-785B-5E691652D645" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E57DC092-081B-F01F-1526-8ED49AA95122" name="T_VB_ITEM_PEDIDO PK">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2023-03-28 23:42:57 UTC</createdTime>
+<ownerDesignName>ProjVendeBem</ownerDesignName>
+<engineerTo>
+<item key="D455C03D-D3E2-1458-785B-5E691652D645" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>10A1F48E-C81E-68A8-2A1C-D0F7AD5B61DA</attributeRef>
+<attributeRef>F0B0DB6A-522F-1E8A-C201-81FEC663C3FB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

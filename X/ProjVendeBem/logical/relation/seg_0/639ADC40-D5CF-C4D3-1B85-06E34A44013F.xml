@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_VB_PED_ITEM_PED" directorySegmentName="seg_0" id="639ADC40-D5CF-C4D3-1B85-06E34A44013F">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2023-03-28 23:43:06 UTC</createdTime>
+<ownerDesignName>ProjVendeBem</ownerDesignName>
+<engineerTo>
+<item key="D455C03D-D3E2-1458-785B-5E691652D645" value="true"/>
+</engineerTo>
+<sourcePk>17B51A78-7FA9-07BC-C598-201E3A3A114A</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FF5D1EDB-57CA-1326-EB8F-DDEDF37A0A50</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B5E1243D-6856-6C02-1428-4A59574D13F8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

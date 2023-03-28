@@ -1,0 +1,173 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FF5D1EDB-57CA-1326-EB8F-DDEDF37A0A50" name="T_VB_PEDIDO">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2023-03-07 01:57:56 UTC</createdTime>
+<ownerDesignName>ProjVendeBem</ownerDesignName>
+<engineerTo>
+<item key="D455C03D-D3E2-1458-785B-5E691652D645" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NR_PEDIDO" id="738A5011-D034-7DFC-4D71-03AF3B510175">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-03-14 11:06:22 UTC</createdTime>
+<comment><![CDATA[Este atributo refere-se a chave primária da tabela de Pedido do projeto vendebem. Seu conteúdo é obrigatório e será preenchido automaticamente pela aplicação.]]></comment>
+<commentInRDBMS><![CDATA[Este atributo refere-se a chave primária da tabela de Pedido do projeto vendebem. Seu conteúdo é obrigatório e será preenchido automaticamente pela aplicação.]]></commentInRDBMS>
+<ownerDesignName>ProjVendeBem</ownerDesignName>
+<engineerTo>
+<item key="D455C03D-D3E2-1458-785B-5E691652D645" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_EMPRESA" id="3660B931-3529-4883-0A81-14B6084CF892">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2023-03-28 23:46:19 UTC</createdTime>
+<comment><![CDATA[Este atributo refere-se a chave primária da tabela de empresa  do projeto vende.
+Seu conteúdo é obrigatório e será preenchido automaticamente pela aplicação.
+]]></comment>
+<generatorID>DF8BD861-2282-0082-A0A1-FEB6DA837907</generatorID>
+<ownerDesignName>ProjVendeBem</ownerDesignName>
+<engineerTo>
+<item key="D455C03D-D3E2-1458-785B-5E691652D645" value="true"/>
+</engineerTo>
+<referedAttribute>6C6C36CF-0BFA-721D-50F9-1FBAAFED6DCA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_CLIENTE" id="31DDC26C-0303-D140-EA2F-616EABEF4A3C">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2023-03-28 23:45:40 UTC</createdTime>
+<comment><![CDATA[Este atributo refere-se a chave primária da tabela de cliente do projeto vende.
+Seu conteúdo é obrigatório e será preenchido automaticamente pela aplicação.]]></comment>
+<generatorID>BC771A5D-03F4-B569-1909-CA43DD12613A</generatorID>
+<ownerDesignName>ProjVendeBem</ownerDesignName>
+<engineerTo>
+<item key="D455C03D-D3E2-1458-785B-5E691652D645" value="true"/>
+</engineerTo>
+<referedAttribute>DE8FB212-CB40-92A7-4C4E-3888BD43DB62</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_FUNCIONARIO" id="0E79AFD7-573C-6A12-49D8-E4BFEE240F91">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2023-03-28 23:46:45 UTC</createdTime>
+<comment><![CDATA[Este atributo refere-se a chave primária da tabela de funcionário do projeto vendebem. Seu conteúdo é obrigatório e será preenchido automaticamente pela aplicação.]]></comment>
+<generatorID>12B8144E-0041-2893-8716-5944F5EE134A</generatorID>
+<ownerDesignName>ProjVendeBem</ownerDesignName>
+<engineerTo>
+<item key="D455C03D-D3E2-1458-785B-5E691652D645" value="true"/>
+</engineerTo>
+<referedAttribute>161C0E8D-1D51-E0D4-1351-F59BD8849D22</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_PEDIDO" id="098F674B-6E0B-5534-10D5-794694BF7475">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-03-14 11:10:03 UTC</createdTime>
+<comment><![CDATA[Este atributo refere-se a data e horário inicial  do pedido feito pelo cliente. Seu conteúdo é opcional.]]></comment>
+<commentInRDBMS><![CDATA[Este atributo refere-se a data e horário inicial  do pedido feito pelo cliente. Seu conteúdo é opcional.]]></commentInRDBMS>
+<ownerDesignName>ProjVendeBem</ownerDesignName>
+<engineerTo>
+<item key="D455C03D-D3E2-1458-785B-5E691652D645" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_TEMPO_PERMANENCIA" id="85ACD16E-51E3-8305-7D6E-8547E447E231">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-03-14 11:11:10 UTC</createdTime>
+<comment><![CDATA[Este atributo refere-se ao tempo de permanência do cliente dentro do estabelecimento. O cálculo será feito a partir da data e  horário inicial do pedido até a solicitação de encerramento feito pelo cliente. Seu conteúdo é opcional.]]></comment>
+<commentInRDBMS><![CDATA[Este atributo refere-se ao tempo de permanência do cliente dentro do estabelecimento. O cálculo será feito a partir da data e  horário inicial do pedido até a solicitação de encerramento feito pelo cliente. Seu conteúdo é opcional.]]></commentInRDBMS>
+<ownerDesignName>ProjVendeBem</ownerDesignName>
+<engineerTo>
+<item key="D455C03D-D3E2-1458-785B-5E691652D645" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_PRODUTO" id="E6B5F05F-D9D5-70AB-344F-EBC90FFFF5ED">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-03-14 11:14:52 UTC</createdTime>
+<ownerDesignName>ProjVendeBem</ownerDesignName>
+<engineerTo>
+<item key="D455C03D-D3E2-1458-785B-5E691652D645" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>90</dataTypeSize>
+<ownDataTypeParameters>90,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_FORMA_PAGAMENTO" id="96351FD1-1FD9-298B-B046-374E47390B5F">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-03-14 11:36:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Este atributo refere-se a forma de pagamento feito pelo cliente. Seu conteúdo é opcional e será preenchido no padrão InitCap (iniciais em maiúscula).]]></commentInRDBMS>
+<ownerDesignName>ProjVendeBem</ownerDesignName>
+<engineerTo>
+<item key="D455C03D-D3E2-1458-785B-5E691652D645" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VL_TOT_PEDIDO" id="6818BE42-EC57-73EA-26B5-31936A1FFB5B">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2023-03-28 23:39:45 UTC</createdTime>
+<ownerDesignName>ProjVendeBem</ownerDesignName>
+<engineerTo>
+<item key="D455C03D-D3E2-1458-785B-5E691652D645" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="17B51A78-7FA9-07BC-C598-201E3A3A114A" name="T_VB_PEDIDO PK">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-03-14 11:06:32 UTC</createdTime>
+<ownerDesignName>ProjVendeBem</ownerDesignName>
+<engineerTo>
+<item key="D455C03D-D3E2-1458-785B-5E691652D645" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>738A5011-D034-7DFC-4D71-03AF3B510175</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

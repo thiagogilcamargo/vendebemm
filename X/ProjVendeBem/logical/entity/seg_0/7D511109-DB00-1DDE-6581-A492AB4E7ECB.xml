@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7D511109-DB00-1DDE-6581-A492AB4E7ECB" name="T_VB_CLIENTE">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2023-03-14 01:50:30 UTC</createdTime>
+<ownerDesignName>ProjVendeBem</ownerDesignName>
+<engineerTo>
+<item key="D455C03D-D3E2-1458-785B-5E691652D645" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_CLIENTE" id="DE8FB212-CB40-92A7-4C4E-3888BD43DB62">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2023-03-14 01:50:55 UTC</createdTime>
+<comment><![CDATA[Este atributo refere-se a chave primária da tabela de cliente do projeto vende.
+Seu conteúdo é obrigatório e será preenchido automaticamente pela aplicação.]]></comment>
+<commentInRDBMS><![CDATA[Este atributo refere-se a chave primária da tabela de cliente do projeto vende.
+Seu conteúdo é obrigatório e será preenchido automaticamente pela aplicação.
+]]></commentInRDBMS>
+<ownerDesignName>ProjVendeBem</ownerDesignName>
+<engineerTo>
+<item key="D455C03D-D3E2-1458-785B-5E691652D645" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_CLIENTE" id="28206C38-F97C-58DF-66C8-28EFACFDE31A">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2023-03-14 01:57:14 UTC</createdTime>
+<comment><![CDATA[Este atributo refere-se ao nome do cliente do projeto vendebem. Seu conteúdo é opcional e será preenchido no padrão InitCap (iniciais em maiúscula).
+]]></comment>
+<commentInRDBMS><![CDATA[Este atributo refere-se ao nome do cliente do projeto vendebem. Seu conteúdo é opcional e será preenchido no padrão InitCap (iniciais em maiúscula).
+]]></commentInRDBMS>
+<ownerDesignName>ProjVendeBem</ownerDesignName>
+<engineerTo>
+<item key="D455C03D-D3E2-1458-785B-5E691652D645" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>90</dataTypeSize>
+<ownDataTypeParameters>90,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_NASCIMENTO" id="9724D140-79C5-CA1E-B16B-26C77583D469">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2023-03-14 01:59:20 UTC</createdTime>
+<comment><![CDATA[Este atributo refere-se a data de nascimento do cliente e seu conteúdo é opcional. ]]></comment>
+<commentInRDBMS><![CDATA[Este atributo refere-se a data de nascimento do cliente e seu conteúdo é opcional. ]]></commentInRDBMS>
+<ownerDesignName>ProjVendeBem</ownerDesignName>
+<engineerTo>
+<item key="D455C03D-D3E2-1458-785B-5E691652D645" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_TELEFONE" id="38EB8C34-4366-BDC7-458D-5346E775B598">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2023-03-14 01:59:53 UTC</createdTime>
+<ownerDesignName>ProjVendeBem</ownerDesignName>
+<engineerTo>
+<item key="D455C03D-D3E2-1458-785B-5E691652D645" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="73D48C09-C057-08B2-B64E-607AF4AAD330" name="T_VB_CLIENTE PK">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2023-03-14 01:51:42 UTC</createdTime>
+<ownerDesignName>ProjVendeBem</ownerDesignName>
+<engineerTo>
+<item key="D455C03D-D3E2-1458-785B-5E691652D645" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DE8FB212-CB40-92A7-4C4E-3888BD43DB62</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

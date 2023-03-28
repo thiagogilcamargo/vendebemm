@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ProjVendeBem" id="260C336F-E7DE-E261-220C-05B97F42975A" version="3.5">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2023-03-07 01:55:22 UTC</createdTime>
+<ownerDesignName>VendeBem</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>260C336F-E7DE-E261-220C-05B97F42975A</designId>
+</OSDM_Design>

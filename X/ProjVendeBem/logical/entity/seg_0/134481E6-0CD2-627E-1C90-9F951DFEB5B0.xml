@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="134481E6-0CD2-627E-1C90-9F951DFEB5B0" name="T_VB_EMPRESA">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-03-14 11:18:33 UTC</createdTime>
+<ownerDesignName>ProjVendeBem</ownerDesignName>
+<engineerTo>
+<item key="D455C03D-D3E2-1458-785B-5E691652D645" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_EMPRESA" id="6C6C36CF-0BFA-721D-50F9-1FBAAFED6DCA">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-03-14 11:18:33 UTC</createdTime>
+<comment><![CDATA[Este atributo refere-se a chave primária da tabela de empresa  do projeto vende.
+Seu conteúdo é obrigatório e será preenchido automaticamente pela aplicação.
+]]></comment>
+<commentInRDBMS><![CDATA[Este atributo refere-se a chave primária da tabela de empresa  do projeto vende.
+Seu conteúdo é obrigatório e será preenchido automaticamente pela aplicação.
+]]></commentInRDBMS>
+<ownerDesignName>ProjVendeBem</ownerDesignName>
+<engineerTo>
+<item key="D455C03D-D3E2-1458-785B-5E691652D645" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_RAZAO_SOCIAL" id="53F50689-AA6D-F088-9416-8D5CDD23408B">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-03-14 11:20:06 UTC</createdTime>
+<comment><![CDATA[Este atributo refere-se a razao social da empresa dentro  do projeto vendebem. Seu conteúdo é opcional e será preenchido no padrão InitCap (iniciais em maiúscula).]]></comment>
+<commentInRDBMS><![CDATA[Este atributo refere-se a razao social da empresa dentro  do projeto vendebem. Seu conteúdo é opcional e será preenchido no padrão InitCap (iniciais em maiúscula).]]></commentInRDBMS>
+<ownerDesignName>ProjVendeBem</ownerDesignName>
+<engineerTo>
+<item key="D455C03D-D3E2-1458-785B-5E691652D645" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70</dataTypeSize>
+<ownDataTypeParameters>70,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_FANTASIA" id="09FFA51D-CAB2-8C6C-2ACF-946538E1339A">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-03-14 11:18:33 UTC</createdTime>
+<comment><![CDATA[Este atributo refere-se ao nome fantasia da empresa dentro  do projeto vendebem. Seu conteúdo é opcional e será preenchido no padrão InitCap (iniciais em maiúscula).
+]]></comment>
+<commentInRDBMS><![CDATA[Este atributo refere-se ao nome fantasia da empresa dentro  do projeto vendebem. Seu conteúdo é opcional e será preenchido no padrão InitCap (iniciais em maiúscula).
+]]></commentInRDBMS>
+<ownerDesignName>ProjVendeBem</ownerDesignName>
+<engineerTo>
+<item key="D455C03D-D3E2-1458-785B-5E691652D645" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_TELEFONE" id="A2ECBEBC-0B51-FFB6-05FA-D1FCB7295A77">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-03-14 11:18:33 UTC</createdTime>
+<ownerDesignName>ProjVendeBem</ownerDesignName>
+<engineerTo>
+<item key="D455C03D-D3E2-1458-785B-5E691652D645" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_ENDERECO" id="8FF9B820-1BA6-BE88-E594-13FFCC37E059">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-03-14 11:21:07 UTC</createdTime>
+<ownerDesignName>ProjVendeBem</ownerDesignName>
+<engineerTo>
+<item key="D455C03D-D3E2-1458-785B-5E691652D645" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_MESA" id="3014F3E8-0C54-BB9C-B669-B87456FBEAA5">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-03-14 11:21:26 UTC</createdTime>
+<ownerDesignName>ProjVendeBem</ownerDesignName>
+<engineerTo>
+<item key="D455C03D-D3E2-1458-785B-5E691652D645" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B10E1862-FF00-7B53-618D-B1270A795A6A" name="PK_T_VB_CLIENTE">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-03-14 11:18:33 UTC</createdTime>
+<ownerDesignName>ProjVendeBem</ownerDesignName>
+<engineerTo>
+<item key="D455C03D-D3E2-1458-785B-5E691652D645" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>6C6C36CF-0BFA-721D-50F9-1FBAAFED6DCA</newElementsIDs>
+<usedAttributes>
+<attributeRef>6C6C36CF-0BFA-721D-50F9-1FBAAFED6DCA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
